@@ -1,10 +1,10 @@
 {
-    "version": "0.6.4-rc4",
+    "version": "0.6.4",
     "description": "High-performance statically-typed scripting language for games and real-time applications",
     "homepage": "https://daslang.io",
     "license": "BSD-3-Clause",
-    "url": "https://github.com/GaijinEntertainment/daScript/releases/download/v0.6.4-RC4/daslang-bundle-windows-x86_64.zip",
-    "hash": "cc24a209dd7f724fb09791318288dad665708fa566af43be96679ad4c4abf741",
+    "url": "https://github.com/GaijinEntertainment/daScript/releases/download/v0.6.4/daslang-bundle-windows-x86_64.zip",
+    "hash": "00409af672f0bc2aa6650bb4d1312f6505412c6ed8a309ad2ad4929b867f0d97",
     "extract_dir": "daslang_bundle",
     "bin": [
         "bin\\daslang.exe",
