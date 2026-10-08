@@ -4,7 +4,7 @@
     "homepage": "https://dasllama.io",
     "license": "BSD-3-Clause",
     "url": "https://github.com/GaijinEntertainment/daScript/releases/download/v0.6.5-RC1/dasllama-windows-x64.zip",
-    "hash": "e95f13adffa17aa989e6643d306394e0c27099bdfa541d12d1176b2cf1d1f6e7",
+    "hash": "8d915690ae3189692f54e80636068b559932c7450e7b1506505265768af166df",
     "extract_dir": "dasllama-server",
     "bin": [
         "dasllama-server.exe",
