@@ -1,10 +1,10 @@
 {
-    "version": "0.6.5-rc1",
+    "version": "0.6.5-rc2",
     "description": "High-performance statically-typed scripting language for games and real-time applications",
     "homepage": "https://daslang.io",
     "license": "BSD-3-Clause",
-    "url": "https://github.com/GaijinEntertainment/daScript/releases/download/v0.6.5-RC1/daslang-bundle-windows-x86_64.zip",
-    "hash": "9b4eed839796f529df56556afc16e10e80ac076b08637794e4949382d04df7fb",
+    "url": "https://github.com/GaijinEntertainment/daScript/releases/download/v0.6.5-RC2/daslang-bundle-windows-x86_64.zip",
+    "hash": "519dccb27822f6d43196d5e48e9432549a5825f3782de09c368dadb5b1568070",
     "extract_dir": "daslang_bundle",
     "bin": [
         "bin\\daslang.exe",
@@ -15,10 +15,12 @@
         "bin\\detect-dupe.exe",
         "bin\\benchctl.exe",
         "bin\\dastest.exe",
-        "bin\\das-fmt.exe"
+        "bin\\das-fmt.exe",
+        ["bin\\watchdog.exe", "daslang-watchdog"]
     ],
     "checkver": {
-        "github": "https://github.com/GaijinEntertainment/daScript"
+        "url": "https://github.com/GaijinEntertainment/daScript/releases",
+        "regex": "/releases/tag/v([\\d.]+)"
     },
     "autoupdate": {
         "url": "https://github.com/GaijinEntertainment/daScript/releases/download/v$version/daslang-bundle-windows-x86_64.zip"
