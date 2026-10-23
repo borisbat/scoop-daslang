@@ -1,10 +1,10 @@
 {
-    "version": "0.6.6-rc2",
+    "version": "0.6.6",
     "description": "OpenAI-compatible local LLM server, CLI and benchmark over dasLLAMA",
     "homepage": "https://dasllama.io",
     "license": "BSD-3-Clause",
-    "url": "https://github.com/GaijinEntertainment/daScript/releases/download/dasllama-v0.6.6-RC2/dasllama-windows-x64.zip",
-    "hash": "66de4946b2240f94e6d87f98dde461ff2608165bed12b060efefb22c3c1050ea",
+    "url": "https://github.com/GaijinEntertainment/daScript/releases/download/dasllama-v0.6.6/dasllama-windows-x64.zip",
+    "hash": "4e7c7fd528a53d44f0840bf15212f9e2bd1d2225dbf5aaae4e8bfd8bf617f3eb",
     "extract_dir": "dasllama-server",
     "bin": [
         "dasllama-server.exe",
